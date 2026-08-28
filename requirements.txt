@@ -2,3 +2,4 @@ pandas
 folium
 streamlit
 streamlit-folium
+plotly
