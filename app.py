@@ -166,7 +166,7 @@ st.divider()
 st.markdown(
     """
     <div style='text-align: center; color: #666666; font-size: 14px; padding: 10px;'>
-        <p><b>By:</b> Seohyun | <b>프로젝트:</b>17기는 어디에 살고 있을까?🧐 - 서울시 법정동 및 자치구별 하나고등학교 17기 인구 수 시각화</p>
+        <p><b>By:</b> Seohyun | <b>프로젝트:</b> 17기는 어디에 살고 있을까?🧐 - 서울시 법정동 및 자치구별 하나고등학교 17기 인구 수 시각화</p>
         <p>© 2026 All rights reserved.</p>
     </div>
     """,
