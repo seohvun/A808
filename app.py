@@ -8,7 +8,7 @@ from streamlit_folium import st_folium
 
 # 1. Streamlit 페이지 기본 설정
 st.set_page_config(
-    page_title="17기 인구 시각화 프로젝트",
+    page_title="17기는 어디에 살고 있을까?🧐 - 서울시 법정동 및 자치구별 하나고등학교 17기 인구 수 시각화",
     page_icon="🗺️",
     layout="wide"
 )
@@ -166,7 +166,7 @@ st.divider()
 st.markdown(
     """
     <div style='text-align: center; color: #666666; font-size: 14px; padding: 10px;'>
-        <p><b>By:</b> Seohyun | <b>프로젝트:</b> A808 서울시 행정동 및 자치구 인구 시각화</p>
+        <p><b>By:</b> Seohyun | <b>프로젝트:</b>17기는 어디에 살고 있을까?🧐 - 서울시 법정동 및 자치구별 하나고등학교 17기 인구 수 시각화</p>
         <p>© 2026 All rights reserved.</p>
     </div>
     """,
