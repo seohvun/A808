@@ -144,7 +144,7 @@ with tab2:
             showscale=True,
             colorbar=dict(title="인구수(명)")
         ),
-        hovertemplate="<b>%{text}</b><br>위도: %{y}<br>경도: %{x}<br><b>인구수: %{z} 명</b><extra></extra>"
+        hovertemplate="<b>%{text}</b><br><b>인구수: %{z} 명</b><extra></extra>"
     ))
 
     fig.update_layout(
