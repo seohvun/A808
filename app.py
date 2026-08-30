@@ -8,24 +8,24 @@ from streamlit_folium import st_folium
 
 # 1. Streamlit 페이지 기본 설정
 st.set_page_config(
-    page_title="서울시 인구 시각화 프로젝트",
+    page_title="17기 인구 시각화 프로젝트",
     page_icon="🗺️",
     layout="wide"
 )
 
 # 메인 제목 및 설명
 st.title("17기는 어디에 살고 있을까?🧐")
-st.subheader("서울시 행정동 및 자치구별 인구수 시각화")
+st.subheader("서울시 법정동 및 자치구별 인구수 시각화")
 st.write("By. 2026 1학기 A808 강재이, 박서현, 백서연, 심나현")
 
 # 2. 탭(Tabs) 생성: 행정동, 지역구
-tab1, tab2 = st.tabs(["🗺️ 행정동별 지도", "📊 지역구별 3D 지형"])
+tab1, tab2 = st.tabs(["🗺️ 법정동별 지도", "📊 지역구별 3D 지형"])
 
 # ==============================================================================
 # TAB 1: 행정동별 인구 지도 (Folium)
 # ==============================================================================
 with tab1:
-    st.markdown("### 서울시 행정동별 인구수 지도")
+    st.markdown("### 서울시 법행정동별 인구수 지도")
     
     @st.cache_data
     def load_dong_data():
@@ -73,7 +73,7 @@ with tab1:
     fmap.geojson.add_child(
         folium.features.GeoJsonTooltip(
             fields=['adm_nm', '인구수_표시'],
-            aliases=['행정동:', '인구수:'],
+            aliases=['법정동:', '인구수:'],
             labels=True,
             style="""
                 background-color: white;
